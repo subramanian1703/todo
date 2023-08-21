@@ -5,7 +5,7 @@ const Todoobj = [
   { id: 2, name: "test1", checked: false },
   { id: 3, name: "test2", checked: false },
 ]
-function Todo() {
+function CheckBox() {
   const [todo, setTodo] = useState(Todoobj)
 
   const handleCheckBox = (event, index) => {
@@ -34,4 +34,4 @@ function Todo() {
   )
 }
 
-export default Todo
+export default CheckBox
